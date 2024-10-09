@@ -1,0 +1,23 @@
+.main-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100dvh;
+}
+
+.recipe-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nutrition-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.attribution {
+    margin-top: 1rem;
+}
