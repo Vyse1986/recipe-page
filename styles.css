@@ -130,3 +130,23 @@ tr:last-of-type {
 .attribution {
 	margin-top: 1rem;
 }
+
+
+/* Mobile challenge requirements */
+
+@media (width <= 375px) {
+    .recipe-container {
+        margin: 0;
+        border-radius: 0;
+        padding: 0 0 1rem 0;
+        gap: 0;
+    }
+
+    .recipe-container > *:not(.img-container) {
+        margin: 1rem 1.5rem;
+    }
+
+    .recipe-img {
+        border-radius: 0;
+    }
+}
